@@ -72,7 +72,9 @@
         } ],
         "selectedInputFields" : [ ]
       },
-      "properties" : { }
+      "properties" : {
+        "datasetId" : "216"
+      }
     },
     "Filter_99300" : {
       "id" : "Filter_99300",
