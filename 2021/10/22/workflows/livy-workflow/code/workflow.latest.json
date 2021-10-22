@@ -26,6 +26,10 @@
           "type" : "record",
           "fields" : [ ]
         },
+        "emr" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
         "dev" : {
           "type" : "record",
           "fields" : [ ]
@@ -69,6 +73,36 @@
         "selectedInputFields" : [ ]
       },
       "properties" : { }
+    },
+    "Filter_99300" : {
+      "id" : "Filter_99300",
+      "component" : "Filter",
+      "metadata" : {
+        "label" : "Filter_0",
+        "slug" : "filter_0",
+        "x" : 268.5,
+        "y" : 115,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "25021",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "32961",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "condition" : {
+          "format" : "sql",
+          "expression" : "true"
+        }
+      }
     }
   },
   "ports" : {
