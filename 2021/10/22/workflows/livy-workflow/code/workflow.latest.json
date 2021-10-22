@@ -111,6 +111,33 @@
           "expression" : "true"
         }
       }
+    },
+    "Reformat_44472" : {
+      "id" : "Reformat_44472",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_0",
+        "slug" : "reformat_0",
+        "x" : 635.25,
+        "y" : 131,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "27036",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "89965",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ ]
+      }
     }
   },
   "ports" : {
