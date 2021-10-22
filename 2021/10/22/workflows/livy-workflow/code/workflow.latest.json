@@ -80,8 +80,8 @@
       "metadata" : {
         "label" : "Filter_0",
         "slug" : "filter_0",
-        "x" : 268.5,
-        "y" : 115,
+        "x" : 704.5,
+        "y" : 312,
         "language" : "scala",
         "phase" : 0
       },
