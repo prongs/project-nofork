@@ -138,6 +138,33 @@
         "columnsSelector" : [ ],
         "expressions" : [ ]
       }
+    },
+    "MyReformat0_30656" : {
+      "id" : "MyReformat0_30656",
+      "component" : "MyReformat0",
+      "metadata" : {
+        "label" : "MyReformat_0",
+        "slug" : "my_reformat_0",
+        "x" : 428.25,
+        "y" : 134.5,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "91677",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "7150",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ ]
+      }
     }
   },
   "ports" : {
