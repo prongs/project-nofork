@@ -16,7 +16,7 @@ object reformat_0 {
       col("customer_id"),
       col("first_name"),
       col("last_name"),
-      struct(col("customer_id"), lit("40").as("phoneNumber")).as("aaa"),
+      struct(col("customer_id")).as("aaa"),
       struct(col("customer_id"), lit("40").as("phoneNumber")).as("aaa"),
       col("phone"),
       col("email")

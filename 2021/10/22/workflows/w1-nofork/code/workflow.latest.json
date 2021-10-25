@@ -137,7 +137,7 @@
           "target" : "aaa",
           "expression" : {
             "format" : "scala",
-            "expression" : "struct(col(\"customer_id\"), lit(\"40\").as(\"phoneNumber\"))"
+            "expression" : "struct(col(\"customer_id\"))"
           },
           "description" : ""
         }, {
