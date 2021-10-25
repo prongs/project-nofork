@@ -72,7 +72,9 @@
         } ],
         "selectedInputFields" : [ ]
       },
-      "properties" : { }
+      "properties" : {
+        "datasetId" : "216"
+      }
     },
     "Reformat_42659" : {
       "id" : "Reformat_42659",
