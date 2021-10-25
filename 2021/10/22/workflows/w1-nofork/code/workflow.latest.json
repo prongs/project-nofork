@@ -51,7 +51,13 @@
     "codeMode" : "sparse",
     "buildSystem" : "maven"
   },
-  "connections" : [ ],
+  "connections" : [ {
+    "id" : "684",
+    "source" : "Source_36013",
+    "sourcePort" : "3773",
+    "target" : "Reformat_42659",
+    "targetPort" : "51188"
+  } ],
   "processes" : {
     "Source_36013" : {
       "id" : "Source_36013",
