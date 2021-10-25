@@ -10,5 +10,15 @@ import udfs.UDFs._
 import udfs._
 
 object reformat_0 {
-  def apply(spark: SparkSession, in: DataFrame): DataFrame = in
+
+  def apply(spark: SparkSession, in: DataFrame): DataFrame =
+    in.select(col("customer_id"),
+              col("first_name"),
+              col("last_name"),
+              col("last_name"),
+              col("last_name"),
+              col("phone"),
+              col("email")
+    )
+
 }
