@@ -26,6 +26,10 @@
           "type" : "record",
           "fields" : [ ]
         },
+        "emr" : {
+          "type" : "record",
+          "fields" : [ ]
+        },
         "dev" : {
           "type" : "record",
           "fields" : [ ]
@@ -69,6 +73,33 @@
         "selectedInputFields" : [ ]
       },
       "properties" : { }
+    },
+    "Reformat_42659" : {
+      "id" : "Reformat_42659",
+      "component" : "Reformat",
+      "metadata" : {
+        "label" : "Reformat_0",
+        "slug" : "reformat_0",
+        "x" : 331,
+        "y" : -47,
+        "language" : "scala",
+        "phase" : 0
+      },
+      "ports" : {
+        "inputs" : [ {
+          "id" : "51188",
+          "slug" : "in"
+        } ],
+        "outputs" : [ {
+          "id" : "1750",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ]
+      },
+      "properties" : {
+        "columnsSelector" : [ ],
+        "expressions" : [ ]
+      }
     }
   },
   "ports" : {
