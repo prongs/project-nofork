@@ -188,7 +188,14 @@
       },
       "properties" : {
         "columnsSelector" : [ ],
-        "expressions" : [ ]
+        "expressions" : [ {
+          "target" : "aaa.customer_id",
+          "expression" : {
+            "format" : "scala",
+            "expression" : "col(\"aaa.customer_id\")"
+          },
+          "description" : ""
+        } ]
       }
     }
   },
