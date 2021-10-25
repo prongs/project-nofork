@@ -12,13 +12,14 @@ import udfs._
 object reformat_0 {
 
   def apply(spark: SparkSession, in: DataFrame): DataFrame =
-    in.select(col("customer_id"),
-              col("first_name"),
-              col("last_name"),
-              col("last_name"),
-              col("last_name"),
-              col("phone"),
-              col("email")
+    in.select(
+      col("customer_id"),
+      col("first_name"),
+      col("last_name"),
+      struct(col("customer_id"), lit("40").as("phoneNumber")).as("aaa"),
+      struct(col("customer_id"), lit("40").as("phoneNumber")).as("aaa"),
+      col("phone"),
+      col("email")
     )
 
 }

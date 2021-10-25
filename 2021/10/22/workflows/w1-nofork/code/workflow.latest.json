@@ -134,17 +134,17 @@
           },
           "description" : ""
         }, {
-          "target" : "last_name",
+          "target" : "aaa",
           "expression" : {
             "format" : "scala",
-            "expression" : "col(\"last_name\")"
+            "expression" : "struct(col(\"customer_id\"), lit(\"40\").as(\"phoneNumber\"))"
           },
           "description" : ""
         }, {
-          "target" : "last_name",
+          "target" : "aaa",
           "expression" : {
             "format" : "scala",
-            "expression" : "col(\"last_name\")"
+            "expression" : "struct(col(\"customer_id\"), lit(\"40\").as(\"phoneNumber\"))"
           },
           "description" : ""
         }, {
