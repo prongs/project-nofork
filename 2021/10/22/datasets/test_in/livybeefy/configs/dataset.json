@@ -2,7 +2,7 @@
   "format" : "csv",
   "ignoreLeadingWhiteSpaceReading" : false,
   "multiLine" : null,
-  "path" : "",
+  "path" : "file:/storage/workflowdata/visa/ptr-data/",
   "ignoreTrailingWhiteSpaceReading" : false,
   "maxColumns" : null,
   "writeMode" : "error",
